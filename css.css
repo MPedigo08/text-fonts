@@ -1,0 +1,29 @@
+
+.orbitron-body {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "500px";
+  font-style: normal;
+}
+span {
+    font-weight: bold;
+}
+h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+div:nth-of-type(1) {
+    font-size: 20px;
+}
+h2 {
+font-size: 2em;
+} 
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MPedigo08/text-fonts.git
+git push -u origin main
